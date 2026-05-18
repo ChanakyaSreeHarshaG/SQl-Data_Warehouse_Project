@@ -1,0 +1,44 @@
+/*
+=============================================================
+Create Database and Schemas
+=============================================================
+Script Purpose:
+    This script creates a new database named 'DataWarehouse' after checking if it already exists. 
+    If the database exists, it is dropped and recreated. Additionally, the script sets up three schemas 
+    within the database: 'bronze', 'silver', and 'gold'.
+	
+WARNING:
+    Running this script will drop the entire 'DataWarehouse' database if it exists. 
+    All data in the database will be permanently deleted. Proceed with caution 
+    and ensure you have proper backups before running this script.
+*/
+
+
+
+
+-- First  check the databases 
+show databases;
+
+-- Create your database 
+create database datawarehouse; 
+
+-- Use database 
+use datawarehouse;
+
+-- create bronze database
+create database bronze;
+
+-- create  silver database
+create database silver;
+
+-- create  gold database
+create database gold;
+
+
+-- Note :- i am doing my project in mysql so i have to create a separate database but if you are using a mysql server r PSQL you can use schema. Thier isnt a much difference in it just a head-up.
+
+
+
+
+
+
