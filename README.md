@@ -8,7 +8,7 @@
 
 This project follows the **Medallion Architecture** — a layered approach to progressively refine raw data into business-ready analytics.
 
-![Data Flow Diagram](docs/data_flow_diagram.png)
+![Data Flow Diagram](docs/data_flow_diagram.jpeg)
 
 | Layer | Purpose |
 |---|---|
