@@ -34,7 +34,7 @@ This project demonstrates end-to-end data engineering skills — from raw data i
 
 The CRM and ERP systems share common entities (customers and products) that are linked via surrogate keys during the Silver-to-Gold transformation.
 
-![Integration Model](docs/integration_model.png)
+![Integration Model](docs/integration_model.jpeg)
 
 **Source Tables:**
 
@@ -53,7 +53,7 @@ The CRM and ERP systems share common entities (customers and products) that are 
 
 The Gold layer is modeled as a **Star Schema** to support fast, intuitive analytical queries.
 
-![Sales Data Mart Star Schema](docs/sales_data_mart.png)
+![Sales Data Mart Star Schema](docs/sales_data_mart.jpeg)
 
 **Tables:**
 - `gold.fact_sales` — Order-level transactional fact table
@@ -141,4 +141,4 @@ This project is licensed under the [MIT License](LICENSE).
 
 Hi, I'm **Chanakya Sree Harsha G** — a data enthusiast passionate about building clean, scalable data solutions.
 
-Feel free to connect with me on [LinkedIn](https://www.linkedin.com) or explore more of my work on [GitHub](https://github.com/ChanakyaSreeHarshaG).
+Feel free to connect with me on [LinkedIn](www.linkedin.com/in/chanakyasreeharsha) or explore more of my work on [GitHub](https://github.com/ChanakyaSreeHarshaG).
